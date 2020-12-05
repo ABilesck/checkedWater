@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/fundo">
+	<android.support.design.widget.CoordinatorLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/coordinatorLayout1" >
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/linearLayout1">
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/txtTitulo"
+				android:hint="Título"
+				tools:text="Titulo"  />
+			<EditText
+				android:inputType="textMultiLine"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:minLines="3"
+				android:gravity="top|left"
+				android:hint="Descrição"
+				android:id="@+id/txtDescricao"
+				tools:text="Descrição" />
+			<Button
+				android:text="Denunciar"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/btnDenunciar"/>
+					<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+					<Button
+						android:id="@+id/btnVotoPositivo"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="procede"
+						android:enabled="false"	
+						android:layout_weight="1" />
+					<Button
+						android:id="@+id/btnVotoNegativo"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Não procede"
+						android:enabled="false"	
+						android:layout_weight="1" />
+					<Button
+						android:id="@+id/btnVisualizarMapa"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Visualizar no mapa"
+						android:enabled="false"	
+						android:layout_weight="1" />
+			</LinearLayout>
+				<ListView
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:id="@+id/lvDados" />
+			</LinearLayout>
+		
+	</android.support.design.widget.CoordinatorLayout>
+
+</android.support.design.widget.CoordinatorLayout>

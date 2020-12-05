@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:foregroundGravity="fill"
+	android:background="@drawable/fundo"
+	android:gravity="center">
+	<TextView
+		android:text="@string/txtCriarConta"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+		android:textAlignment="center"
+		android:textStyle="normal"
+		android:textSize="60px" />
+	<EditText
+		android:inputType="text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtNome"
+		android:hint="@string/nomeConta" />
+	<EditText
+		android:inputType="textEmailAddress"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtEmail"
+		android:hint="@string/emailLogin" />
+	<EditText
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtSenha"
+		android:hint="@string/senhaLogin" />
+	<EditText
+		android:inputType="phone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtTelefone"
+		android:hint="@string/telefoneConta" />
+	<EditText
+		android:inputType="number"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtCEP"
+		android:hint="@string/CepConta" />
+	<Button
+		android:text="@string/txtCriarConta"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnCriar"/>
+</LinearLayout>

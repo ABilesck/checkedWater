@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Checked Water</string>
+    <string name="action_settings">Settings</string>
+    <string name="tituloLogin">Login</string>
+    <string name="emailLogin">Insira seu e-mail</string>
+    <string name="senhaLogin">Insira sua senha</string>
+    <string name="btnLogin">Entrar</string>
+    <string name="txtCriarConta">Criar conta</string>
+
+    <string name="nomeConta">Insira seu nome completo</string>
+    <string name="telefoneConta">Insira seu telefone</string>
+    <string name="CepConta">Insira seu CEP</string>
+</resources>
